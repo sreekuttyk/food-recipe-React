@@ -1,0 +1,68 @@
+.recepieDetails{
+    position:absolute;
+    top:50px;
+    right:0px;
+    bottom: 0px;
+    width:40%;
+    height:auto;
+    background: color #f7f7f7;;
+    border-left:1px solid #ccc;
+    font-family:'Roboto';
+}
+.recepieDetailsClose{
+    position:absolute;
+    right:10px;
+    top:10px;
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.3);
+    cursor:pointer;
+    z-index: 2;
+
+
+
+}
+.recepieDetailsClose:hover{
+    box-shadow: 0px 1px 10px rgba(0,0,0,.3);  
+}
+.recepieTitle{
+    color:white;
+    padding:10px;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.recepieSummary{
+    font-size: small;
+    padding: 10px;
+
+}
+.ingredientWrapper{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr))
+}
+.ingredient{
+    display: flex;
+    align-items: center;
+
+}
+.ingredient img{
+    width:50px;
+    height:50px;
+    object-fit: scale-down;
+    padding-left: 10px;
+
+}
+.ingredient span{
+    font-size: small;
+    padding-left: 10px;
+
+}

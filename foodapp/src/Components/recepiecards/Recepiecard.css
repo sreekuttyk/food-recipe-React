@@ -1,0 +1,42 @@
+.recepiewrapper{
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    transform: translate(0px,50px);
+    position:absolute;
+    overflow-y: auto;
+    top:0;
+    height: auto;
+    bottom:50px;
+    transition: all 200ms ease;
+}
+.recepiecard{
+    margin:10px;
+    width:250px;
+    height:300px;
+    display:flex;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    flex-direction: column;
+}
+.recepiecard .recepieimage{
+    width:250px;
+    height:200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.recepiecard .recepiename{
+    font-family: "Roboto";
+    font-size: 15px;
+    color:#171717;
+    margin:5px;
+}
+.recepiecard .recepieinfo{
+    color:#868585;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    font-size: 14px;
+}
